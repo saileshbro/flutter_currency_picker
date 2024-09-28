@@ -7,7 +7,7 @@ class CurrencyService {
   final List<Currency> _currencies;
 
   CurrencyService()
-      : _currencies = currencies
+      : _currencies = currencies.values
             .map((currency) => Currency.from(json: currency))
             .toList();
 

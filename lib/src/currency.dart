@@ -1,3 +1,5 @@
+import 'package:currency_picker/currency_picker.dart';
+
 class Currency {
   ///The currency code
   final String code;
@@ -76,4 +78,7 @@ class Currency {
         'thousands_separator': thousandsSeparator,
         'space_between_amount_and_symbol': spaceBetweenAmountAndSymbol,
       };
+
+  factory Currency.fromCountryCode(String code) =>
+      Currency.from(json: currencies[code]!);
 }

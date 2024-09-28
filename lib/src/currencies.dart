@@ -1,6 +1,6 @@
 //Order by Most traded currencies: https://en.wikipedia.org/wiki/Template:Most_traded_currencies
-List<Map<String, dynamic>> currencies = [
-  {
+Map<String, Map<String, dynamic>> currencies = {
+  "USD": {
     "code": "USD",
     "name": "United States Dollar",
     "symbol": "\$",
@@ -13,7 +13,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
   },
-  {
+  "EUR": {
     "code": "EUR",
     "name": "Euro",
     "symbol": "€",
@@ -26,7 +26,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": true,
     "symbol_on_left": false,
   },
-  {
+  "JPY": {
     "code": "JPY",
     "name": "Japanese Yen",
     "symbol": "¥",
@@ -39,7 +39,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
   },
-  {
+  "GBP": {
     "code": "GBP",
     "name": "British Pound",
     "symbol": "£",
@@ -52,7 +52,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
   },
-  {
+  "AUD": {
     "code": "AUD",
     "name": "Australian Dollar",
     "symbol": "\$",
@@ -65,7 +65,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
   },
-  {
+  "CAD": {
     "code": "CAD",
     "name": "Canadian Dollar",
     "symbol": "\$",
@@ -78,7 +78,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
   },
-  {
+  "CHF": {
     "code": "CHF",
     "name": "Switzerland Franc",
     "symbol": "CHF",
@@ -91,7 +91,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": true,
     "symbol_on_left": true,
   },
-  {
+  "CNY": {
     "code": "CNY",
     "name": "China Yuan Renminbi",
     "symbol": "¥",
@@ -104,7 +104,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
   },
-  {
+  "HKD": {
     "code": "HKD",
     "name": "Hong Kong Dollar",
     "symbol": "\$",
@@ -117,7 +117,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
   },
-  {
+  "NZD": {
     "code": "NZD",
     "name": "New Zealand Dollar",
     "symbol": "\$",
@@ -130,7 +130,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
   },
-  {
+  "SEK": {
     "code": "SEK",
     "name": "Sweden Krona",
     "symbol": "kr",
@@ -143,7 +143,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": true,
     "symbol_on_left": false,
   },
-  {
+  "KRW": {
     "code": "KRW",
     "name": "South Korea Won",
     "symbol": "₩",
@@ -156,7 +156,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
   },
-  {
+  "SGD": {
     "code": "SGD",
     "name": "Singapore Dollar",
     "symbol": "\$",
@@ -169,7 +169,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
   },
-  {
+  "NOK": {
     "code": "NOK",
     "name": "Norway Krone",
     "symbol": "kr",
@@ -182,7 +182,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": true,
     "symbol_on_left": true,
   },
-  {
+  "MXN": {
     "code": "MXN",
     "name": "Mexico Peso",
     "symbol": "\$",
@@ -195,7 +195,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
   },
-  {
+  "INR": {
     "code": "INR",
     "name": "Indian Rupee",
     "symbol": "₹",
@@ -208,7 +208,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
   },
-  {
+  "RUB": {
     "code": "RUB",
     "name": "Russia Ruble",
     "symbol": "₽",
@@ -221,7 +221,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": true,
     "symbol_on_left": false,
   },
-  {
+  "ZAR": {
     "code": "ZAR",
     "name": "South Africa Rand",
     "symbol": "R",
@@ -234,7 +234,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
   },
-  {
+  "TRY": {
     "code": "TRY",
     "name": "Turkish Lira",
     "symbol": "₺",
@@ -247,7 +247,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
   },
-  {
+  "BRL": {
     "code": "BRL",
     "name": "Brazilian Real",
     "symbol": "R\$",
@@ -260,7 +260,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": true,
     "symbol_on_left": true,
   },
-  {
+  "TWD": {
     "code": "TWD",
     "name": "Taiwan New Dollar",
     "symbol": "NT\$",
@@ -273,7 +273,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
   },
-  {
+  "DKK": {
     "code": "DKK",
     "name": "Denmark Krone",
     "symbol": "kr",
@@ -286,7 +286,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": true,
     "symbol_on_left": false,
   },
-  {
+  "PLN": {
     "code": "PLN",
     "name": "Poland Zloty",
     "symbol": "zł",
@@ -299,7 +299,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": true,
     "symbol_on_left": false,
   },
-  {
+  "THB": {
     "code": "THB",
     "name": "Thailand Baht",
     "symbol": "฿",
@@ -312,7 +312,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
   },
-  {
+  "IDR": {
     "code": "IDR",
     "name": "Indonesia Rupiah",
     "symbol": "Rp",
@@ -325,7 +325,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
   },
-  {
+  "HUF": {
     "code": "HUF",
     "name": "Hungary Forint",
     "symbol": "Ft",
@@ -338,7 +338,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": true,
     "symbol_on_left": false,
   },
-  {
+  "CZK": {
     "code": "CZK",
     "name": "Czech Koruna",
     "symbol": "Kč",
@@ -351,7 +351,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": true,
     "symbol_on_left": false,
   },
-  {
+  "ILS": {
     "code": "ILS",
     "name": "Israel Shekel",
     "symbol": "₪",
@@ -364,7 +364,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": true,
     "symbol_on_left": true,
   },
-  {
+  "CLP": {
     "code": "CLP",
     "name": "Chile Peso",
     "symbol": "\$",
@@ -377,7 +377,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": true,
     "symbol_on_left": true,
   },
-  {
+  "PHP": {
     "code": "PHP",
     "name": "Philippines Peso",
     "symbol": "₱",
@@ -390,7 +390,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
   },
-  {
+  "AED": {
     "code": "AED",
     "name": "Emirati Dirham",
     "symbol": "د.إ",
@@ -403,7 +403,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": true,
     "symbol_on_left": true,
   },
-  {
+  "COP": {
     "code": "COP",
     "name": "Colombia Peso",
     "symbol": "\$",
@@ -416,7 +416,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": true,
     "symbol_on_left": true,
   },
-  {
+  "SAR": {
     "code": "SAR",
     "name": "Saudi Arabia Riyal",
     "symbol": "﷼",
@@ -429,7 +429,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": true,
     "symbol_on_left": true,
   },
-  {
+  "MYR": {
     "code": "MYR",
     "name": "Malaysia Ringgit",
     "symbol": "RM",
@@ -442,7 +442,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
   },
-  {
+  "RON": {
     "code": "RON",
     "name": "Romania Leu",
     "symbol": "L",
@@ -455,7 +455,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": true,
     "symbol_on_left": false,
   },
-  {
+  "AFN": {
     "code": "AFN",
     "name": "Afghanistan Afghani",
     "symbol": "؋",
@@ -468,7 +468,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
   },
-  {
+  "ALL": {
     "code": "ALL",
     "name": "Albanian Lek",
     "symbol": "Lek",
@@ -481,7 +481,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": false,
     "symbol_on_left": false,
   },
-  {
+  "DZD": {
     "code": "DZD",
     "name": "Algerian dinar",
     "symbol": "دج",
@@ -494,7 +494,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": false,
     "symbol_on_left": false,
   },
-  {
+  "AOA": {
     "code": "AOA",
     "name": "Angolan Kwanza",
     "symbol": "Kz",
@@ -505,9 +505,9 @@ List<Map<String, dynamic>> currencies = [
     "thousands_separator": ",",
     "decimal_separator": ".",
     "space_between_amount_and_symbol": true,
-    "symbol_on_left": true
+    "symbol_on_left": true,
   },
-  {
+  "ARS": {
     "code": "ARS",
     "name": "Argentine Peso",
     "symbol": "\$",
@@ -520,7 +520,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": true,
     "symbol_on_left": true,
   },
-  {
+  "AMD": {
     "code": "AMD",
     "name": "Armenian Dram",
     "symbol": "֏",
@@ -533,7 +533,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": true,
     "symbol_on_left": false,
   },
-  {
+  "AZN": {
     "code": "AZN",
     "name": "Azerbaijani Manat",
     "symbol": "₼",
@@ -546,7 +546,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": true,
     "symbol_on_left": false,
   },
-  {
+  "BHD": {
     "code": "BHD",
     "name": "Bahraini Dinar",
     "symbol": "BD",
@@ -559,7 +559,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": true,
     "symbol_on_left": true,
   },
-  {
+  "BDT": {
     "code": "BDT",
     "name": "Bangladeshi Taka",
     "symbol": "৳",
@@ -572,7 +572,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": true,
     "symbol_on_left": false,
   },
-  {
+  "BBD": {
     "code": "BBD",
     "name": "Barbados Dollar",
     "symbol": "\$",
@@ -585,7 +585,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
   },
-  {
+  "BYN": {
     "code": "BYN",
     "name": "Belarussian Ruble",
     "symbol": "Br",
@@ -598,7 +598,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": true,
     "symbol_on_left": true,
   },
-  {
+  "BZD": {
     "code": "BZD",
     "name": "Belize Dollar",
     "symbol": "BZ\$",
@@ -611,7 +611,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
   },
-  {
+  "BMD": {
     "code": "BMD",
     "name": "Bermuda Dollar",
     "symbol": "\$",
@@ -624,7 +624,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
   },
-  {
+  "BTN": {
     "code": "BTN",
     "name": "Bhutanese Ngultrum",
     "symbol": "Nu.",
@@ -637,7 +637,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": true,
     "symbol_on_left": true,
   },
-  {
+  "BOB": {
     "code": "BOB",
     "name": "Bolivia Bolíviano",
     "symbol": "\$b",
@@ -650,7 +650,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": true,
     "symbol_on_left": true,
   },
-  {
+  "BAM": {
     "code": "BAM",
     "name": "Bosnia and Herzegovina convertible mark",
     "symbol": "KM",
@@ -663,7 +663,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": true,
     "symbol_on_left": false,
   },
-  {
+  "BWP": {
     "code": "BWP",
     "name": "Botswanan Pula",
     "symbol": "P",
@@ -676,7 +676,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
   },
-  {
+  "BND": {
     "code": "BND",
     "name": "Brunei Darussalam Dollar",
     "symbol": "\$",
@@ -689,7 +689,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
   },
-  {
+  "BGN": {
     "code": "BGN",
     "name": "Bulgarian Lev",
     "symbol": "лв",
@@ -702,7 +702,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": true,
     "symbol_on_left": false,
   },
-  {
+  "BIF": {
     "code": "BIF",
     "name": "Burundian Franc",
     "symbol": "FBu",
@@ -715,7 +715,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": true,
     "symbol_on_left": true,
   },
-  {
+  "KHR": {
     "code": "KHR",
     "name": "Cambodian riel",
     "symbol": "៛",
@@ -728,7 +728,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": false,
     "symbol_on_left": false,
   },
-  {
+  "KYD": {
     "code": "KYD",
     "name": "Cayman Islands Dollar",
     "symbol": "\$",
@@ -741,7 +741,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
   },
-  {
+  "XAF": {
     "code": "XAF",
     "name": "Central African CFA franc",
     "symbol": "FCFA",
@@ -754,7 +754,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
   },
-  {
+  "XOF": {
     "code": "XOF",
     "name": "UEMOA CFA franc",
     "symbol": "FCFA",
@@ -767,7 +767,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
   },
-  {
+  "CDF": {
     "code": "CDF",
     "name": "Congolese franc",
     "symbol": "FC",
@@ -780,7 +780,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
   },
-  {
+  "CRC": {
     "code": "CRC",
     "name": "Costa Rica Colon",
     "symbol": "₡",
@@ -793,7 +793,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
   },
-  {
+  "CUP": {
     "code": "CUP",
     "name": "Cuban Peso",
     "symbol": "\$MN",
@@ -804,9 +804,9 @@ List<Map<String, dynamic>> currencies = [
     "thousands_separator": ",",
     "decimal_separator": ".",
     "space_between_amount_and_symbol": true,
-    "symbol_on_left": true
+    "symbol_on_left": true,
   },
-  {
+  "DOP": {
     "code": "DOP",
     "name": "Dominican Republic Peso",
     "symbol": "RD\$",
@@ -819,7 +819,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
   },
-  {
+  "EGP": {
     "code": "EGP",
     "name": "Egypt Pound",
     "symbol": "£",
@@ -832,7 +832,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": true,
     "symbol_on_left": true,
   },
-  {
+  "ETB": {
     "code": "ETB",
     "name": "Ethiopian Birr",
     "symbol": "Br",
@@ -845,7 +845,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
   },
-  {
+  "GMD": {
     "code": "GMD",
     "name": "Gambian dalasi",
     "symbol": "D",
@@ -858,7 +858,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": false,
     "symbol_on_left": false,
   },
-  {
+  "GEL": {
     "code": "GEL",
     "name": "Georgian Lari",
     "symbol": "₾",
@@ -871,7 +871,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": true,
     "symbol_on_left": false,
   },
-  {
+  "GHS": {
     "code": "GHS",
     "name": "Ghana Cedi",
     "symbol": "₵",
@@ -884,7 +884,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
   },
-  {
+  "GTQ": {
     "code": "GTQ",
     "name": "Guatemalan quetzal",
     "symbol": "Q",
@@ -897,7 +897,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
   },
-  {
+  "GYD": {
     "code": "GYD",
     "name": "Guyana Dollar",
     "symbol": "\$",
@@ -910,7 +910,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
   },
-  {
+  "HTG": {
     "code": "HTG",
     "name": "Haitian gourde",
     "symbol": "G",
@@ -923,7 +923,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
   },
-  {
+  "ISK": {
     "code": "ISK",
     "name": "Iceland Krona",
     "symbol": "kr",
@@ -936,7 +936,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": true,
     "symbol_on_left": false,
   },
-  {
+  "IQD": {
     "code": "IQD",
     "name": "Iraqi Dinar",
     "symbol": "د.ع",
@@ -949,7 +949,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": true,
     "symbol_on_left": true,
   },
-  {
+  "JMD": {
     "code": "JMD",
     "name": "Jamaica Dollar",
     "symbol": "J\$",
@@ -962,7 +962,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
   },
-  {
+  "JOD": {
     "code": "JOD",
     "name": "Jordanian dinar",
     "symbol": "د.أ",
@@ -975,7 +975,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": false,
     "symbol_on_left": false,
   },
-  {
+  "KZT": {
     "code": "KZT",
     "name": "Kazakhstan Tenge",
     "symbol": "〒",
@@ -988,7 +988,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
   },
-  {
+  "KES": {
     "code": "KES",
     "name": "Kenyan Shilling",
     "symbol": "KSh",
@@ -1001,7 +1001,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
   },
-  {
+  "KWD": {
     "code": "KWD",
     "name": "Kuwaiti Dinar",
     "symbol": "د.ك",
@@ -1014,7 +1014,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": true,
     "symbol_on_left": true,
   },
-  {
+  "KGS": {
     "code": "KGS",
     "name": "Kyrgyzstani som",
     "symbol": "с",
@@ -1027,7 +1027,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": true,
     "symbol_on_left": false,
   },
-  {
+  "LAK": {
     "code": "LAK",
     "name": "Laos Kip",
     "symbol": "₭",
@@ -1040,7 +1040,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": false,
     "symbol_on_left": false,
   },
-  {
+  "LBP": {
     "code": "LBP",
     "name": "Lebanese Pound",
     "symbol": "ل.ل",
@@ -1051,9 +1051,9 @@ List<Map<String, dynamic>> currencies = [
     "thousands_separator": ",",
     "decimal_separator": ".",
     "space_between_amount_and_symbol": true,
-    "symbol_on_left": true
+    "symbol_on_left": true,
   },
-  {
+  "LRD": {
     "code": "LRD",
     "name": "Liberia Dollar",
     "symbol": "\$",
@@ -1066,7 +1066,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
   },
-  {
+  "MKD": {
     "code": "MKD",
     "name": "Macedonia Denar",
     "symbol": "ден",
@@ -1079,7 +1079,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": true,
     "symbol_on_left": false,
   },
-  {
+  "MGA": {
     "code": "MGA",
     "name": "Malagasy Ariary",
     "symbol": "Ar",
@@ -1090,9 +1090,9 @@ List<Map<String, dynamic>> currencies = [
     "thousands_separator": " ",
     "decimal_separator": ".",
     "space_between_amount_and_symbol": false,
-    "symbol_on_left": true
+    "symbol_on_left": true,
   },
-  {
+  "MWK": {
     "code": "MWK",
     "name": "Malawian Kwacha",
     "symbol": "MK",
@@ -1105,7 +1105,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
   },
-  {
+  "MVR": {
     "code": "MVR",
     "name": "Maldivian Rufiyaa",
     "symbol": "/-",
@@ -1118,7 +1118,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": false,
     "symbol_on_left": false,
   },
-  {
+  "MUR": {
     "code": "MUR",
     "name": "Mauritius Rupee",
     "symbol": "₨",
@@ -1131,7 +1131,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
   },
-  {
+  "MDL": {
     "code": "MDL",
     "name": "Moldovan Leu",
     "symbol": "L",
@@ -1144,7 +1144,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": true,
     "symbol_on_left": false,
   },
-  {
+  "MNT": {
     "code": "MNT",
     "name": "Mongolia Tughrik",
     "symbol": "₮",
@@ -1157,7 +1157,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
   },
-  {
+  "MAD": {
     "code": "MAD",
     "name": "Moroccan Dirham",
     "symbol": "MAD",
@@ -1170,7 +1170,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": true,
     "symbol_on_left": true,
   },
-  {
+  "MZN": {
     "code": "MZN",
     "name": "Mozambique Metical",
     "symbol": "MT",
@@ -1183,7 +1183,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
   },
-  {
+  "MMK": {
     "code": "MMK",
     "name": "Myanmar Kyat",
     "symbol": "Ks",
@@ -1196,7 +1196,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": true,
     "symbol_on_left": true,
   },
-  {
+  "NAD": {
     "code": "NAD",
     "name": "Namibia Dollar",
     "symbol": "\$",
@@ -1209,7 +1209,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
   },
-  {
+  "NPR": {
     "code": "NPR",
     "name": "Nepal Rupee",
     "symbol": "₨",
@@ -1222,7 +1222,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
   },
-  {
+  "NIO": {
     "code": "NIO",
     "name": "Nicaragua Cordoba",
     "symbol": "C\$",
@@ -1235,7 +1235,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": true,
     "symbol_on_left": true,
   },
-  {
+  "NGN": {
     "code": "NGN",
     "name": "Nigeria Naira",
     "symbol": "₦",
@@ -1248,7 +1248,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
   },
-  {
+  "OMR": {
     "code": "OMR",
     "name": "Oman Rial",
     "symbol": "﷼",
@@ -1261,7 +1261,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": true,
     "symbol_on_left": true,
   },
-  {
+  "PKR": {
     "code": "PKR",
     "name": "Pakistan Rupee",
     "symbol": "₨",
@@ -1274,7 +1274,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
   },
-  {
+  "PGK": {
     "code": "PGK",
     "name": "Papua New Guinean Kina",
     "symbol": "K",
@@ -1287,7 +1287,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
   },
-  {
+  "PYG": {
     "code": "PYG",
     "name": "Paraguay Guarani",
     "symbol": "₲",
@@ -1300,7 +1300,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": true,
     "symbol_on_left": true,
   },
-  {
+  "PEN": {
     "code": "PEN",
     "name": "Peru Sol",
     "symbol": "S/.",
@@ -1313,7 +1313,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": true,
     "symbol_on_left": true,
   },
-  {
+  "QAR": {
     "code": "QAR",
     "name": "Qatar Riyal",
     "symbol": "﷼",
@@ -1326,7 +1326,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": true,
     "symbol_on_left": true,
   },
-  {
+  "RWF": {
     "code": "RWF",
     "name": "Rwandan franc",
     "symbol": "FRw",
@@ -1339,7 +1339,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
   },
-  {
+  "RSD": {
     "code": "RSD",
     "name": "Serbia Dinar",
     "symbol": "Дин.",
@@ -1352,7 +1352,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": true,
     "symbol_on_left": false,
   },
-  {
+  "SCR": {
     "code": "SCR",
     "name": "Seychellois rupee",
     "symbol": "₨",
@@ -1365,7 +1365,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": true,
     "symbol_on_left": true,
   },
-  {
+  "SOS": {
     "code": "SOS",
     "name": "Somalia Shilling",
     "symbol": "S",
@@ -1378,7 +1378,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
   },
-  {
+  "LKR": {
     "code": "LKR",
     "name": "Sri Lanka Rupee",
     "symbol": "₨",
@@ -1391,7 +1391,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": true,
     "symbol_on_left": true,
   },
-  {
+  "SRD": {
     "code": "SRD",
     "name": "Suriname Dollar",
     "symbol": "\$",
@@ -1404,7 +1404,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
   },
-  {
+  "SYP": {
     "code": "SYP",
     "name": "Syrian Lira",
     "symbol": "LS",
@@ -1417,7 +1417,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": false,
     "symbol_on_left": false,
   },
-  {
+  "TZS": {
     "code": "TZS",
     "name": "Tanzanian Shilling",
     "symbol": "TSh",
@@ -1430,7 +1430,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
   },
-  {
+  "TOP": {
     "code": "TOP",
     "name": "Tongan Pa'anga",
     "symbol": "T\$",
@@ -1441,9 +1441,9 @@ List<Map<String, dynamic>> currencies = [
     "thousands_separator": ",",
     "decimal_separator": ".",
     "space_between_amount_and_symbol": true,
-    "symbol_on_left": true
+    "symbol_on_left": true,
   },
-  {
+  "TTD": {
     "code": "TTD",
     "name": "Trinidad and Tobago Dollar",
     "symbol": "TT\$",
@@ -1456,7 +1456,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
   },
-  {
+  "TND": {
     "code": "TND",
     "name": "Tunisian dinar",
     "symbol": "د.ت",
@@ -1469,7 +1469,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": true,
     "symbol_on_left": true,
   },
-  {
+  "UGX": {
     "code": "UGX",
     "name": "Ugandan Shilling",
     "symbol": "USh",
@@ -1482,7 +1482,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
   },
-  {
+  "UAH": {
     "code": "UAH",
     "name": "Ukraine Hryvnia",
     "symbol": "₴",
@@ -1495,7 +1495,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": false,
     "symbol_on_left": false,
   },
-  {
+  "UYU": {
     "code": "UYU",
     "name": "Uruguay Peso",
     "symbol": "\$U",
@@ -1508,7 +1508,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": true,
     "symbol_on_left": true,
   },
-  {
+  "VEF": {
     "code": "VEF",
     "name": "Venezuela Bolívar",
     "symbol": "Bs",
@@ -1521,7 +1521,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": true,
     "symbol_on_left": true,
   },
-  {
+  "VND": {
     "code": "VND",
     "name": "Vietnamese Dong",
     "symbol": "₫",
@@ -1534,7 +1534,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": true,
     "symbol_on_left": false,
   },
-  {
+  "YER": {
     "code": "YER",
     "name": "Yemen Rial",
     "symbol": "﷼",
@@ -1547,7 +1547,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": true,
     "symbol_on_left": true,
   },
-  {
+  "ZMW": {
     "code": "ZMW",
     "name": "Zambian kwacha",
     "symbol": "ZK",
@@ -1560,7 +1560,7 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
   },
-  {
+  "ZWL": {
     "code": "ZWL",
     "name": "Zimbabwean Dollar",
     "symbol": "\$ZWL",
@@ -1573,4 +1573,4 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
   },
-];
+};
