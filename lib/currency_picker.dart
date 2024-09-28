@@ -6,10 +6,7 @@ import 'src/currency.dart';
 import 'src/currency_list_bottom_sheet.dart' as currency_list;
 import 'src/currency_picker_theme_data.dart';
 
-export 'package:currency_picker/src/currency.dart';
-export 'package:currency_picker/src/currency_picker_theme_data.dart';
-export 'package:currency_picker/src/currency_service.dart';
-export 'package:currency_picker/src/currency_utils.dart';
+export 'src/src.dart';
 
 /// Show currency picker
 ///
@@ -61,7 +58,7 @@ void showCurrencyPicker({
   CurrencyPickerThemeData? theme,
   @Deprecated(
     'Use inputDecoration instead. '
-        'This feature was deprecated after v2.0.18.',
+    'This feature was deprecated after v2.0.18.',
   )
   String? searchHint,
 }) {
