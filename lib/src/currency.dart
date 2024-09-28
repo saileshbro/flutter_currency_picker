@@ -79,6 +79,9 @@ class Currency {
         'space_between_amount_and_symbol': spaceBetweenAmountAndSymbol,
       };
 
-  factory Currency.fromCountryCode(String code) =>
-      Currency.from(json: currencies[code]!);
+  static Currency? fromCountryCode(String code) {
+    final currency = currencies[code];
+    if (currency != null) return Currency.from(json: currency);
+    return null;
+  }
 }
