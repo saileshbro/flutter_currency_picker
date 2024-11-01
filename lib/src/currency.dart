@@ -84,4 +84,6 @@ class Currency {
     if (currency != null) return Currency.from(json: currency);
     return null;
   }
+
+  static final usd = fromCountryCode('USD')!;
 }
